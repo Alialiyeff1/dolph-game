@@ -1,0 +1,335 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 10vh;
+    background-color: #f5f5f5;
+}
+.nav{
+    width: 90%;
+    height: 9vh;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.ul{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    font-size: 0.8rem;
+}
+.giris{
+    width: 34%;
+    height: 4vh;
+    border: none;
+    background-color: darkorange;
+    color: white;
+    border-radius: 5%;
+}
+.qeydiyyat{
+    width: 57%;
+    height: 4vh;
+    border-radius: 5%;
+    border: none;
+    background-color: #495057;
+    color: white;
+    font-size: 0.8rem;
+}
+.db{
+    width: 12%;
+}
+.section1{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+}
+.dolph{
+    width: 14%;
+    height: 17vh;
+    margin-left: 4%;
+}
+.ddolp{
+    width:45%;
+    height: 15vh;
+}
+.search{
+    width: 100%;
+    height: 12vh;
+    margin-top: 2%;
+    font-size: 1rem;
+}
+.icons{
+    color: darkorange;
+    font-size: 1.4rem;
+
+}
+.dbazar{
+    width: 12%;
+    height: 12vh;
+    background-color: white;
+    margin-top: 1%;
+    margin-left: 5%;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.dbalans{
+    width: 12%;
+    height: 12vh;
+    background-color: white;
+    margin-top: 1%;
+    margin-left: 2%;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.dbalans:hover{
+    background-color: darkorange;
+    color: white;
+}
+.dbazar:hover{
+    background-color: darkorange;
+    color: white;
+}
+.icons:hover{
+    color: white;
+}
+.section2{
+    width: 100%;
+    height: 10vh;
+}
+.ul2{
+    list-style: none;
+    display: flex;
+    gap: 31px;
+    align-items: center;
+    padding-top: 1.5%;
+    padding-left: 5%;
+}
+.section3{
+    width: 100%;
+    height: 57vh;
+}
+.dimgs{
+    width: 90%;
+    height: 57vh;
+    margin: 0 auto;
+}
+.img1{
+    width: 70%;
+    height: 55vh;
+    float: left;
+}
+.img2{
+    float: right;
+    width: 25%;
+    height: 26vh;
+}
+.img3{
+    float: right;
+    width: 25%;
+    height: 26vh;
+}
+.section4{
+    width: 100%;
+    height: 60vh;
+    background-color: #f5f5f5;
+}
+.doyunlar{
+    width: 90%;
+    height: 9vh;
+    background-color: darkorange;
+    margin: 0 auto;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-white{
+    color: white;
+}
+.satilan{
+    font-size: 1.3rem;
+}
+.bax{
+    font-size: 0.8rem;
+}
+.dlogos{
+    width: 90%;
+    height: 44vh;
+    margin: 0 auto;
+}
+.logos{
+    width: 19%;
+    height: 19vh;
+}
+.ll{
+    width: 19%;
+    height: 10vh;
+}
+.section5{
+    width: 100%;
+    height: 110vh;
+    background-color: #f5f5f5;
+}
+.dul3{
+    width: 90%;
+    height: 8vh;
+    background-color: darkorange;
+    margin: 0 auto;
+}
+.ul3{
+    display: flex;
+    list-style: none;
+    gap: 120px;
+    justify-content: center;
+    color: white;
+    
+}
+.li3{
+    padding-top: 1.5%;
+}
+.dpubg{
+    width: 90%;
+    height: 98vh;
+    margin: 0 auto;
+    display: flex;
+    gap: 7px;
+    flex-flow: row wrap;
+}
+.dpubgg{
+    width: 19%;
+    height: 47vh;
+    background-color: white;
+}
+.pubgg{
+    width: 55%;
+    height: 30vh;
+    margin-top: 4%;
+    margin-left: 23%;
+}
+.uc{
+    display: flex;
+    justify-content: center;
+}
+.azn{
+    color: darkorange;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+}
+.section6{
+    width: 100%;
+    height: 80vh;
+    background-color: #f5f5f5;
+}
+.dx{
+    width: 90%;
+    height: 66vh;
+    background-color: #f5f5f5;
+    display: flex;
+    margin: 0 auto;
+    gap: 15px;
+    margin-top: 1.5%;
+}
+.dsayt{
+    width: 24%;
+    height: 66vh;
+    background-color: white;
+}
+.dxidmet{
+    width: 24%;
+    height: 66vh;
+    background-color: white;
+}
+.sdolph{
+    width: 100%;
+    height: 35vh;
+}
+.pt-1{
+    padding-left: 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.f-size{
+    font-size: 1.2rem;
+}
+.sss{
+    font-size: 1rem;
+    padding-top: 5%;
+}
+.data{
+    font-size: 0.8rem;
+}
+.data1{
+    font-size: 0.8rem;
+    padding-top: 18%;
+}
+.section7{
+    width: 100%;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+.divs{
+    width: 100%;
+    height: 33vh;
+    background-color: white;
+}
+.divss{
+    width: 90%;
+    height: 33vh;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    gap: 7px;
+}
+.div{
+    width: 24.5%;
+    height: 33vh;
+    background-color: #f5f5f5;
+}
+.iconss{
+    font-size: 2.2rem;
+    color: #f9a533;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    animation-name: animase;
+    transition: 0.5s;
+}
+@keyframes animase{
+
+}
+.iconss:hover{
+    color: #f9a533;
+    transform: rotateZ(360deg);
+}
+.sts{
+    color: #f9a533;
+    padding-top: 4%;
+    padding-left: 30%;
+    font-size: 1.3rem;
+}
+.sts1{
+    color: #f9a533;
+    padding-top: 4%;
+    padding-left: 20%;
+    font-size: 1.3rem;
+}
+.aem{
+    display: flex;
+    text-align-last: center;
+    padding-left: 15%;
+    font-size: 0.9rem;
+}
